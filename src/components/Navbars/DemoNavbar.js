@@ -108,7 +108,7 @@ class DemoNavbar extends React.Component {
                     </Col>
                   </Row>
                 </div>
-                <Nav className="navbar-nav-hover align-items-lg-center" navbar>
+                {/* <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
@@ -170,9 +170,10 @@ class DemoNavbar extends React.Component {
                             </p>
                           </Media>
                         </Media>
-                      </div>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
+                      </div> */}
+                    {/* </DropdownMenu>
+                  </UncontrolledDropdown> */}
+                  <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
