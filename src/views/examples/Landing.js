@@ -19,7 +19,7 @@ import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
+import cardImg from "assets/img/theme/screen2.png";
 import ill2 from "assets/img/ill/ill-2.svg";
 import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
@@ -268,12 +268,12 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3> Some projects That I  have worked on:</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Here are a few projects that I have worked on:
                     </p>
+                    {/* Gift Factory
+                    The idea of this project is to bring your favourite local/ Global Gift store to your feet; It's the place where you can buy your loved ones special gifts. */}
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
                         <div className="d-flex align-items-center">
@@ -287,7 +287,7 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Carefully crafted components
+                              1. The Gift Factory project.
                             </h6>
                           </div>
                         </div>
@@ -303,25 +303,25 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
+                            <h6 className="mb-0">2. The Salmon Cookie project</h6>
                           </div>
                         </div>
                       </li>
                       <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
-                            <Badge
+                            {/* <Badge
                               className="badge-circle mr-3"
                               color="success"
                             >
                               <i className="ni ni-satisfied" />
-                            </Badge>
+                            </Badge> */}
                           </div>
-                          <div>
+                          {/* <div>
                             <h6 className="mb-0">
-                              Super friendly support team
+                             
                             </h6>
-                          </div>
+                          </div> */}
                         </div>
                       </li>
                     </ul>
@@ -358,12 +358,11 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                       Gift Factory
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                        
+                    The idea of this project is to bring your favorite local/ Global Gift store to your feet; It's the place where you can buy your loved ones special gifts. 
                       </p>
                     </blockquote>
                   </Card>
@@ -375,33 +374,30 @@ class Landing extends React.Component {
                     </div>
                     <h3>Our customers</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                      In this project we worked as a team, I was chosen to be the team leader so I had to take on so much responsibilities that ranged from scheduling everyone's work to solving issues and fixing bugs.
+                     We managed to create an online Gift shop. 
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                                        
+                     The idea of this project is to bring your favorite local/ Global Gift store to your feet; It's the place where you can buy your loved ones special gifts.</p>
+
+                     <p>
+                     You could buy a pre-made package or design your own package from out customized gifts section and if you were lost or not so sure about what gift you want to buy or if you want something fast yet prestigious, then you could refer to our random gifts section where you can get a gift that will definitely turn heads.
                     </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
+                   
                     <a
                       className="font-weight-bold text-warning mt-5"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      href="https://giftfactory.github.io/GiftFactory1/"
+                      // onClick={e => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      Check our online Gift store 'The Gift Factory'
                     </a>
                   </div>
                 </Col>
               </Row>
             </Container>
           </section>
-          <section className="section pb-0 bg-gradient-warning">
+          {/* <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
@@ -489,7 +485,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -504,16 +500,19 @@ class Landing extends React.Component {
                 />
               </svg>
             </div>
-          </section>
-          <section className="section section-lg">
+          </section> */} */}
+          {/* <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">The amazing Team</h2>
+                  <h2 className="display-3">About Me</h2>
                   <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+                  Who am i ?
+My name is Mohammad Altamimi, I am 23 years old.
+I graduate from the Hashemite university with a bachelor's degree in Mechanical engineering. My kn owledge and expertise in problem solving and critical thinking really thrived throughout university years and until we had this class "electromecahnical engineering" and we had to create a simple robot (like a car) and there I came across coding for the first time and  I managed to make the car move in axial paths.
+I started learning software development but it was so messy because it wasn't structured well online so I looked for scholarships and I landed one. And now I am a front-end developer on my way to become a full stack developer. One of my recent projects was the cookie stand project, GIft factory project where I was chosen as a leader for my team and we managed to create an online store.
+I am looking for a job in the tech industry that will help me utilize my creativity and  what i learned in furthering my company's goals and my own self-Growth.
+
                   </p>
                 </Col>
               </Row>
@@ -721,17 +720,17 @@ class Landing extends React.Component {
                 </div>
               </Card>
             </Container>
-          </section>
+          </section> */}
           <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
-                  <h2 className="display-3 text-white">Build something</h2>
+                  <h2 className="display-3 text-white">About Me</h2>
                   <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
+                   <b> Who am I?</b><br/>
+
+                  My name is Mohammad Altamimi, I am 23 years old.
+                  I graduated from the Hashemite university with a bachelor's degree in Mechanical engineering. 
                   </p>
                 </Col>
               </Row>
@@ -740,30 +739,28 @@ class Landing extends React.Component {
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-settings text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Building tools</h5>
+                  <h5 className="text-white mt-3">knowledge and expertise</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  My knowledge and expertise in problem solving and critical thinking really thrived throughout university years 
                   </p>
                 </Col>
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-ruler-pencil text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Grow your market</h5>
+                  <h5 className="text-white mt-3">Growing into Software development</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  I looked for scholarships in software development and I landed one. Now I am a front-end developer  and on my way to become a full stack developer.
                   </p>
                 </Col>
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-atom text-primary" />
                   </div>
-                  <h5 className="text-white mt-3">Launch time</h5>
+                  <h5 className="text-white mt-3">What kind of Jobs do I want?</h5>
                   <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  I am looking for a job in the tech industry that will help me utilize my creativity and  what i learned in furthering my company's goals and my own self-Growth.
+
                   </p>
                 </Col>
               </Row>
@@ -785,7 +782,7 @@ class Landing extends React.Component {
               </svg>
             </div>
           </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
+          {/* <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
                 <Col lg="8">
@@ -859,8 +856,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <Download />
+          </section> */}
+          {/* <Download /> */}
         </main>
         <CardsFooter />
       </>
