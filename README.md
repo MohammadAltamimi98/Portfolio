@@ -1,6 +1,6 @@
 Live Deployed Site:https://portfolio-mohammad-altamimi.netlify.app/
 
-Number and name of feature: all the feature tasks listed in Trello
+Number and name of feature: all the feature tasks listed in 'Trello'
 
 Estimate of time needed to complete:  3 hours
 
