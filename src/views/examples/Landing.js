@@ -156,19 +156,17 @@ class Landing extends React.Component {
 
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Getting a 360 view on what software development is, some projects done in this course: Salmon-Cookie, Gift-Factory and finished it off with the HR-system project.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              HTML
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              JS
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                             CSS
                             </Badge>
                           </div>
                           <Button
@@ -192,20 +190,18 @@ class Landing extends React.Component {
                           Code 301 - Intermediate Software Development
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          - Intermediate Software Development,Starting with React JS ; the first two objects were the horned beasts and the Portfolio using Argon.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              React-js
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              Argon
                             </Badge>
-                            <Badge color="success" pill className="mr-1">
+                            {/* <Badge color="success" pill className="mr-1">
                               success
-                            </Badge>
+                            </Badge> */}
                           </div>
                           <Button
                             className="mt-4"
@@ -228,11 +224,9 @@ class Landing extends React.Component {
                           Code 401 - Advanced Software Development
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            pending ... 
                           </p>
-                          <div>
+                          {/* <div>
                             <Badge color="warning" pill className="mr-1">
                               marketing
                             </Badge>
@@ -242,7 +236,7 @@ class Landing extends React.Component {
                             <Badge color="warning" pill className="mr-1">
                               launch
                             </Badge>
-                          </div>
+                          </div> */}
                           <Button
                             className="mt-4"
                             color="warning"
